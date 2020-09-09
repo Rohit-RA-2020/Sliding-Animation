@@ -68,7 +68,7 @@ class _MultipleSlidingBoxState extends State<MultipleSlidingBox>
               transform: Matrix4.translationValues(
                   slidingAnimation.value * width, 0.0, 0.0),
               child: Center(
-                child: Container(height: 200, width: 200, color: Colors.red),
+                child: Container(height: 200, width: 200, color: Colors.teal,
               ),
             ),
             SizedBox(
@@ -78,7 +78,7 @@ class _MultipleSlidingBoxState extends State<MultipleSlidingBox>
               transform: Matrix4.translationValues(
                   delayedSlidingAnimation.value * width, 0.0, 0.0),
               child: Center(
-                child: Container(height: 200, width: 200, color: Colors.blue),
+                child: Container(height: 200, width: 200, color: Colors.deepPurple),
               ),
             ),
             SizedBox(
@@ -89,7 +89,7 @@ class _MultipleSlidingBoxState extends State<MultipleSlidingBox>
                   furtherDelayedSlidingAnimation.value * width, 0.0, 0.0),
               child: Center(
                 child: Container(
-                    height: 200, width: 200, color: Colors.lightGreenAccent),
+                    height: 200, width: 200, color: Colors.pink),
               ),
             ),
           ],
